@@ -29,14 +29,14 @@
 - [x] Create visual identity document — Cyberpunk + art deco pixel art; cyan/magenta/gold palette; all fonts free/open-source
 - [x] Define first ten mission concepts (D1M01–D2M05) — Loops and conditionals with story integration at each step
 
-## PHASE 3: Game Design Document
-- [ ] Complete full GDD
-- [ ] Story bible with character profiles
-- [ ] Systems design documentation
-- [ ] Educational design mapping
-- [ ] Accessibility plan
-- [ ] Monetization plan
-- [ ] Platform deployment plans
+## PHASE 3: Game Design Document 🔄 IN PROGRESS
+- [x] Complete full GDD (~33,000 chars — Parts A–H covering overview, story, gameplay systems, level design, UI, audio, technical specs, production plan)
+- [ ] Story bible with character profiles (expands LUMA-9 premise into detailed reference)
+- [ ] Systems design documentation (core loops, save/load, difficulty mode behavior)
+- [ ] Educational design mapping (CS concepts per district/mission)
+- [ ] Accessibility plan (colorblind modes, ADHD features, input options)
+- [ ] Monetization plan (expanded from Phase 1 with pricing calendar)
+- [ ] Platform deployment plans (Steam + Google Play submission checklists)
 
 ## PHASE 4: Technical Prototype
 - [ ] Create Godot project structure
