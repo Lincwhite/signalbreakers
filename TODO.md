@@ -22,12 +22,12 @@
 - [ ] Create docs/research/BUSINESS_MODEL.md
 - [ ] Create docs/research/RESEARCH_GAPS.md (if browsing unavailable)
 
-## PHASE 2: Concept
-- [ ] Finalize title options (3–5 names, check availability)
-- [ ] Write elevator pitch and USP
-- [ ] Design story premise for LUMA-9
-- [ ] Create visual identity document
-- [ ] Define first ten mission concepts
+## PHASE 2: Concept ✅ COMPLETE
+- [x] Finalize title options (3–5 names, check availability) — **Signalbreakers: The Neon Protocol** confirmed clear on Steam (0 results), no Google conflicts
+- [x] Write elevator pitch and USP — Primary USPs: cyberpunk narrative + programming puzzles, 8 themed districts, three difficulty modes, ADHD-friendly design
+- [x] Design story premise for LUMA-9 — Floating megacity Aethelgard Prime, AI core AETHEL dreaming new signals, central mystery of "The Silence"
+- [x] Create visual identity document — Cyberpunk + art deco pixel art; cyan/magenta/gold palette; all fonts free/open-source
+- [x] Define first ten mission concepts (D1M01–D2M05) — Loops and conditionals with story integration at each step
 
 ## PHASE 3: Game Design Document
 - [ ] Complete full GDD
