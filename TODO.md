@@ -3,16 +3,17 @@
 ## PHASE 0: Environment Audit ✅ COMPLETE
 - [x] Inspect OS, GPU, VRAM, RAM, storage
 - [x] Check Godot installation (NOT INSTALLED — needs download)
-- [x] Check Python installation (✅ Python 3.12.10)
-- [x] Check Git installation (✅ Git 2.56.1)
+- [x] Check Python installation (✅ Python 3.12.10 verified)
+- [x] Check Git installation (✅ Git 2.56.1 verified)
 - [x] Check Java/JDK (NOT FOUND — needs install)
 - [x] Check Android SDK (NEEDS VERIFY)
-- [x] Check LM Studio endpoint (NEEDS VERIFY)
+- [x] Check LM Studio endpoint (✅ VERIFIED WORKING at localhost:1234/v1)
 - [x] Create DEVELOPMENT_ENVIRONMENT.md
-- [x] Initialize Git repository
-- [ ] Install Godot 4.7 stable
-- [ ] Install Java JDK 17+ and Android SDK tools
-- [ ] Verify LM Studio model loading
+- [x] Initialize Git repository (`53251fc`)
+- [ ] Install Godot 4.7.2 stable — see INSTALLATION_GUIDE.md
+- [ ] Install Temurin JDK 17 or 21 LTS — see INSTALLATION_GUIDE.md
+- [ ] Install Android SDK via Godot's built-in installer
+- [x] Verify LM Studio model loading (✅ Qwen 3.6-35B, Qwen 3.8-27B, DeepSeek R1, nomic-embed-text-v1.5)
 
 ## PHASE 1: Research (NEXT)
 - [ ] Create docs/research/COMPETITOR_MATRIX.md

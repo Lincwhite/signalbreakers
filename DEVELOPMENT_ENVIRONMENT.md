@@ -32,18 +32,18 @@
 
 ---
 
-## Installed Development Tools
+## Installed Development Tools — Verified November 22, 2026
 
-| Tool | Version | Status | Path |
-|------|---------|--------|------|
-| **Python** | 3.12.10 | ✅ INSTALLED | `C:\Users\linco\AppData\Local\Programs\Python\Python312\python.exe` |
-| **Git** | 2.56.1.windows.1 | ✅ INSTALLED | `C:\Program Files\Git\cmd\git.exe` |
-| **Godot** | Not found in PATH | ⚠️ NEEDS INSTALL | — |
-| **Java / JDK** | Not found in PATH | ⚠️ NEEDS INSTALL | — |
-| **Android SDK** | Not verified | ⚠️ NEEDS CHECK | — |
-| **Gradle** | Not verified | ⚠️ NEEDS CHECK | — |
-| **ADB (Android Debug Bridge)** | Not verified | ⚠️ NEEDS CHECK | — |
-| **LM Studio Endpoint** | Unknown | ⚠️ NEEDS VERIFY | Try `http://localhost:1234/v1` |
+| Tool | Version | Status | Path / Notes |
+|------|---------|--------|--------------|
+| **Python** | 3.12.10 | ✅ VERIFIED | `C:\Users\linco\AppData\Local\Programs\Python\Python312` |
+| **Git** | 2.56.1.windows.1 | ✅ VERIFIED | `C:\Program Files\Git\cmd\git.exe` |
+| **Godot** | Not installed | ⚠️ NEEDS INSTALL | See INSTALLATION_GUIDE.md — Godot 4.7.2 stable recommended |
+| **Java / JDK** | Not found in PATH | ⚠️ NEEDS INSTALL | See INSTALLATION_GUIDE.md — Temurin JDK 17 or 21 LTS |
+| **Android SDK** | Not verified | ⚠️ PENDING | Will install via Godot's built-in Android module installer after JDK |
+| **Gradle** | Not verified | ⚠️ PENDING | Bundled with Android SDK |
+| **ADB** | Not verified | ⚠️ PENDING | Bundled with Android SDK |
+| **LM Studio Endpoint** | ✅ VERIFIED WORKING | `http://localhost:1234/v1` — Ollama-compatible, multiple models loaded including Qwen 3.6-35B, Qwen 3.8-27B, DeepSeek R1, nomic-embed-text-v1.5 embedding model |
 
 ---
 
@@ -83,16 +83,18 @@
 
 ---
 
-## LM Studio Integration Plan
+## LM Studio Integration Plan — VERIFIED ✅
 
-**Endpoint to verify:** `http://localhost:1234/v1` (Ollama) or `http://localhost:1244/v1` (LM Studio native)
-
-**Verification steps:**
-1. Open LM Studio
-2. Navigate to the "Local Server" tab
-3. Check which port is active (default: 1234 for Ollama, 1244 for LM Studio)
-4. Test with `curl http://localhost:<PORT>/v1/models`
-5. Confirm model `qwen3.6-35b-a3b-uncensored-hauhaucs-aggressive` is loaded
+**Endpoint:** `http://localhost:1234/v1` (Ollama-compatible)  
+**Status:** ACTIVE and responding as of November 22, 2026  
+**Loaded models confirmed via API:**
+- `qwen3.6-35b-a3b-uncensored-hauhaucs-aggressive`
+- `text-embedding-nomic-embed-text-v1.5` (embedding model)
+- `qwen/qwen3.6-35b-a3b`
+- `qwen/qwen3-coder-30b`
+- `deepseek/deepseek-r1-0528-qwen3-8b`
+- `qwen3.5-9b-the-defiant-fable-uncensored-heretic-neo-imatrix-max-mtp`
+- `qwen/qwen3.8-27b`
 
 **Usage in development:**
 - Code generation and review (Godot GDScript scenes, scripts)
@@ -112,10 +114,10 @@
 
 ## Next Steps
 
-1. Install Godot 4.7 stable
-2. Install Java JDK 17+ and Android SDK command-line tools
-3. Verify LM Studio endpoint and model loading
-4. Initialize Git repository in this directory
+1. **Install Godot 4.7.2 stable** — See INSTALLATION_GUIDE.md (Priority: HIGH)
+2. **Install Temurin JDK 17 or 21 LTS** — See INSTALLATION_GUIDE.md (Priority: HIGH)
+3. Verify LM Studio endpoint and model loading ✅ DONE
+4. Git repository already initialized (`53251fc`)
 5. Begin PHASE 1 Research with web searches for competitor data and platform requirements
 
 ---
